@@ -1,0 +1,118 @@
+/*@import url(//db.onlinewebfonts.com/c/ad26818d844de4534fd78bb03028ca79?family=Shopify+Sans+Web+Medium); */
+
+/* this is css comments*/
+
+/*.sectionbox {
+    display: ;
+}*/
+
+
+input {
+    display: flex;
+    color: black;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: right;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+}
+#navbar a img{
+    margin-left: 15px;
+    width: 120px;
+}
+#navbar a img:hover{
+    width: 130px;
+    background-color: rgba(218, 165, 32, 0.5);
+}
+
+.sectionbox{
+    text-align: right;
+}
+
+h1{
+    color: black;
+    background-color: white; 
+    font-family: fantasy;
+    font-size: 20;
+    text-align: center;
+    border-bottom: 1px black solid;
+    padding-bottom: 40px;
+    width: 1900px;
+}
+
+h2{
+    font-family:sans-serif
+}
+
+.exclusive {
+    color: red;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    flex-wrap: wrap;
+    min-width: 620px;
+    max-width: 1220px;
+}
+.flex-item {
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid #626262;
+    margin: 3px;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown{
+    text-align: center;
+}
+
+h2{
+    color: black; 
+    background-color: white;
+    font-size: 8;
+    text-align: center;
+}
+
+#para1{
+    color: black;
+    background-color: white;
+    font-size: 8;
+}
+
+.section{
+    position: relative;
+    bottom: 0;
+    right: 0;
+    color: black;
+    background-color: white;
+    text-align: right;
+}
+
+.flex-item span {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.float{
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
